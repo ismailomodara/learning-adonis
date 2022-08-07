@@ -17,18 +17,14 @@
     "plugins": [
       "prettier"
     ],
-    "rules": {
-      "prettier/prettier": [
-        "error"
-      ]
-    }
+    "rules": {}
   },
   "eslintIgnore": [
     "build"
   ],
   "prettier": {
     "trailingComma": "es5",
-    "semi": false,
+    "semi": true,
     "singleQuote": true,
     "useTabs": false,
     "quoteProps": "consistent",
@@ -53,9 +49,12 @@
   },
   "dependencies": {
     "@adonisjs/core": "^5.8.5",
+    "@adonisjs/lucid": "^18.1.0",
     "@adonisjs/repl": "^3.1.11",
+    "luxon": "^3.0.1",
     "proxy-addr": "^2.0.7",
     "reflect-metadata": "^0.1.13",
-    "source-map-support": "^0.5.21"
+    "source-map-support": "^0.5.21",
+    "sqlite3": "^5.0.11"
   }
 }
